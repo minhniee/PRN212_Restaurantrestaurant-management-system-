@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Img\1214958_add new_change_edit_replace_icon.png" />
+    <None Remove="Img\185095_settings_icon.png" />
+    <None Remove="Img\185114_chef_restaurant_food_icon.png" />
+    <None Remove="Img\211817_search_strong_icon.png" />
+    <None Remove="Img\290119_card_id_identification_identity_profile_icon.png" />
+    <None Remove="Img\370086_bin_delete_empty_out_recycle_icon.png" />
+    <None Remove="Img\4213424_building_estate_home_house_property_icon.png" />
+    <None Remove="Img\4544841_box_business_comerce_delivery_shop_icon.png" />
+    <None Remove="Img\5549023_buy_card_cash_payment_pos_icon.png" />
+    <None Remove="Img\8556498_desk_furniture_interior_table_decoration_icon.png" />
+    <None Remove="Img\8726331_plus_icon.png" />
+    <None Remove="Img\9055212_bxs_category_icon.png" />
+    <None Remove="Img\logout.png" />
+    <None Remove="Img\profile.png" />
+    <None Remove="Img\restaurant_icon.png" />
+    <None Remove="Page\8726331_plus_icon.png" />
+    <None Remove="Page\hehe.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Img\1214958_add new_change_edit_replace_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\185095_settings_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\185114_chef_restaurant_food_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\211817_search_strong_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\290119_card_id_identification_identity_profile_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\370086_bin_delete_empty_out_recycle_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\4213424_building_estate_home_house_property_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\4544841_box_business_comerce_delivery_shop_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\5549023_buy_card_cash_payment_pos_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\8556498_desk_furniture_interior_table_decoration_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\8726331_plus_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\9055212_bxs_category_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\logout.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\profile.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Img\restaurant_icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Page\8726331_plus_icon.png" />
+    <Resource Include="Page\hehe.png" />
+  </ItemGroup>
+
+</Project>

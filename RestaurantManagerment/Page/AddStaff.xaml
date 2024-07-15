@@ -1,0 +1,35 @@
+﻿<Window x:Class="RestaurantManagerment.Page.AddStaff"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:RestaurantManagerment.Page"
+             mc:Ignorable="d" 
+             Height="300" Width="450" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="71*"/>
+            <RowDefinition Height="135*"/>
+            <RowDefinition Height="78*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#FFF1A3A3">
+            <Image Height="71" Width="100" Margin="29,0,321,0" Source="/Img/290119_card_id_identification_identity_profile_icon.png"/>
+        </Grid>
+        <Grid Grid.Row="2" Background="#FF2A316F" Margin="0,10,0,1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="43*"/>
+                <ColumnDefinition Width="407*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Button_Click"/>
+            <Button Grid.Column="1" Content="Close" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="76,0,0,0" Click="Button_Click_1"/>
+        </Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="33,23,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="225,23,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="Role" HorizontalAlignment="Left" Margin="33,76,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <TextBox x:Name="StaffName" HorizontalAlignment="Left" Margin="80,27,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <TextBox x:Name="StaffPhone" HorizontalAlignment="Left" Margin="274,27,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="14"/>
+        <ComboBox x:Name="CboRole" HorizontalAlignment="Left" Margin="76,78,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120" Loaded="ComboBox_Loaded"/>
+        <Label Content="Staff Detail" HorizontalAlignment="Left" Margin="152,0,0,0" VerticalAlignment="Center"/>
+
+    </Grid>
+</Window>
